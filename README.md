@@ -1,73 +1,57 @@
-# Getting Started with Create React App
+# Employee Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Employee Management Application is designed to facilitate the registration of new employees, viewing a table of existing employees, and performing sorting and searching operations based on employee salary and name.
 
-## Available Scripts
+## Pages
 
-In the project directory, you can run:
+### Employee Registration Form
 
-### `npm start`
+The Employee Registration Form allows HR personnel or administrators to add new employees to the system. The form typically collects the following details:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Employee ID
+- Full Name
+- Email Address
+- Phone Number
+- Department
+- Position
+- Salary
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### View Employees Table
 
-### `npm test`
+The View Employees Table page displays a table listing all registered employees. Users can perform the following operations:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Sort employees by salary: Clicking on the salary column header sorts the table in ascending or descending order based on employee salary.
+- Search employees by name: Users can enter a name in the search bar to filter and display employees whose names match the search query.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Frontend: React
+- Backend: Expressjs
+- Database: MySQL
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshot
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot (76)](https://github.com/Subhikshni/employee-registration/assets/99553204/62ab26c5-82d1-47e1-8b84-12b52a902f5c)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot (77)](https://github.com/Subhikshni/employee-registration/assets/99553204/ad956e01-4b88-4b03-9881-44ddf25ff390)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot (78)](https://github.com/Subhikshni/employee-registration/assets/99553204/d0dae73b-fb27-4888-a088-8379ae64098b)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Screenshot (79)](https://github.com/Subhikshni/employee-registration/assets/99553204/c6fd2e39-5cc3-4321-a3cf-232394ffffd2)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# employee-registration" 
-"# emp-server" 
-"# emp-server" 
